@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding: 0;
+}
+main{
+   
+    display: flex;
+    justify-content: center;
+}
+form{
+    
+    width: 35%;
+    padding: 0px 40px 20px 40px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    margin-top: 20px;
+}
+img,input,a,button{
+    display: block;
+}
+img{
+    width: 200px;
+    height: 100px;
+    margin:auto
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+button{
+    width:100%;
+    height: 30px;
+    color: white;
+    background-color: rgb(114, 165, 232);
+    margin-top: 20px;
+    border: none;
+}
+hr{
+    margin-top: 35px;
+}
+a{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+h4{
+    position: absolute;
+    top:-100%;
+    left: 46%;
+    background-color: white;
+    padding: opx 10px;
+}
+#or-cont{
+    position: relative;
+    height: 30px;
+}
